@@ -25,6 +25,17 @@
         </developer>
     </developers>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>private</id>
+            <url>http://139.198.9.251:31571/repository/maven-snapshots//</url>
+        </snapshotRepository>
+        <repository>
+            <id>private</id>
+            <url>http://139.198.9.251:31571/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
+
     <modules>
         <module>zuihou-public/zuihou-common</module>
         <module>zuihou-oauth</module>
